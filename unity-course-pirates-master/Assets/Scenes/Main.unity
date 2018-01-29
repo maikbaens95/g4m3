@@ -299,8 +299,8 @@ Camera:
   m_GameObject: {fileID: 962731821}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.2580558, g: 0.4751027, b: 0.8161765, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -311,7 +311,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -366,7 +366,6 @@ GameObject:
   - component: {fileID: 1435110448}
   - component: {fileID: 1435110449}
   - component: {fileID: 1435110450}
-  - component: {fileID: 1435110451}
   m_Layer: 0
   m_Name: PlayerView
   m_TagString: Untagged
@@ -531,18 +530,6 @@ TrailRenderer:
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
---- !u!114 &1435110451
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1435110446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9845ccb21c7ad874780c899926daf67b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _speed: 300
 --- !u!1 &1792880478
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,8 +603,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Position: {x: 0, y: 0, z: 0}
   Rotation: {x: 0, y: 0, z: 0, w: 0}
-  PlayerSpeed: 10
-  RotationSpeed: 100
+  PlayerSpeed: 5
+  RotationSpeed: 150
   BulletPrefab: {fileID: 1403254731053086, guid: 42fb5836f6ff97d4384771afac7b307d,
     type: 2}
   Muzzle1: {fileID: 472581336}
